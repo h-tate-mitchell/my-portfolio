@@ -1,0 +1,15 @@
+.main {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 75px;
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
