@@ -2,18 +2,22 @@ import React from 'react'
 import Page from '@/components/Page'
 import { useRouter } from 'next/router'
 import { projects } from '@/data/projects'
-import Link from 'next/link'
+import Button from '@/components/Button'
 import styles from "@/styles/Home.module.css"
 
 const projectId = () => {
     const router = useRouter();
     const {id} = router.query;
     return (
-        <Page title={`Project ${id}`}>
+        <Page title={`Project ${id} | H. Tate Mitchell`}>
             {projects.some(project => project.id.toString() === id) ?
             projects.filter(project => project.id.toString() === id).map(project =>
                 <div key={project.id.toString()}>
                     <h1>{project.title}</h1>
+                    <section>
+                        <h2>Background</h2>
+                        <p>{project.background}</p>
+                    </section>
                     <section>
                         <h2>Challenge</h2>
                         <p>{project.challenge}</p>
@@ -38,7 +42,7 @@ const projectId = () => {
 
             }
             <div className={styles.interiorNav}>
-                <Link href="/projects">Back to Projects</Link>
+                <Button className="default" url="/projects">Back to Projects</Button>
             </div>
         </Page>
     )

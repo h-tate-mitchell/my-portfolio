@@ -5,7 +5,7 @@ import { projects as projectsData } from '@/data/projects'
 
 const projects = () => {
   return (
-    <Page title='Projects'>
+    <Page title='Projects | H. Tate Mitchell'>
         <h1>Projects</h1>
         <div>
             <ul>
