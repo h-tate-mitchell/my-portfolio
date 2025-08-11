@@ -14,6 +14,12 @@
 }
 
 .buttons li {
+    text-decoration: none;
     padding: 0;
     margin: 0;
+}
+
+.buttons li a {
+    color: var(--text-dark);
+    text-decoration: none;
 }

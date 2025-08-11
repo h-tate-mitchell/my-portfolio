@@ -1,3 +1,14 @@
-body {
-    background-color: #efefef;
+:root {
+  --primary-color: #187795; /* Cerulean */
+  --secondary-color: #ced3dc; /* French Gray */
+  --accent-color: #F6511D; /* Tangelo */
+  --text-dark: #121420; /* Rich Black */
+  --text-light: #ffffff; /* White */
+  --background-light: #ced3dc; /* French Gray */
+  --background-dark: #2c2b3c; /* Raisin Black */
 }
+
+body {
+    background-color: var(--background-light);
+}
+

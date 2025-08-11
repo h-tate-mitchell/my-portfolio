@@ -1,0 +1,18 @@
+.default {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--accent-color);
+    width: fit-content;
+    margin: 0;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+
+.default a {
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+.default svg {
+    margin-left: 8px;
+}
