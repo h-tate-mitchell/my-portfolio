@@ -1,0 +1,35 @@
+.footer {
+    background-color: var(--background-dark);
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 110%;
+    min-height: 50px;
+    margin: 20px -10px -10px -10px;
+}
+
+.text {
+    color: var(--text-light);
+}
+
+.buttons {
+    display: flex;
+    list-style: none;
+    width: 200px;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.buttons li {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.buttons li a {
+    color: var(--text-light);
+    text-decoration: none;
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Footer from './Footer'
 import Head from 'next/head';
 import styles from '@/styles/Page.module.css'
 
@@ -23,11 +24,8 @@ const Page = (props: PageProps) => {
             <main className={styles.main}>
                 {children}
             </main>
-            <footer className={styles.footer}>
-                H. Tate Mitchell © {new Date().getFullYear()}
-            </footer>
         </div>
-
+        <Footer/>
     </>
   )
 }

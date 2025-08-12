@@ -14,7 +14,7 @@ const Button = (props: ButtonProps) => {
     const { children, className, url } = props;
   return (
     <div className={styles[className]}>
-        <Link href={url} target="_blank">
+        <Link href={url}>
             {children}
             <FontAwesomeIcon icon={faArrowRight} />
         </Link>
