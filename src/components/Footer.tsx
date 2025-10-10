@@ -16,6 +16,9 @@ const Footer = () => {
             <li>
                 <Link href='/projects'>Projects</Link>
             </li>
+            {/* <li>
+                <Link href='/cv'>CV</Link>
+            </li> */}
         </ul>
         <p className={styles.text}>
             H. Tate Mitchell © {new Date().getFullYear()}

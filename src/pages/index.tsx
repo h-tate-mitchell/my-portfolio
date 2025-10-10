@@ -3,7 +3,6 @@ import Page from "@/components/Page";
 import Button from "@/components/Button"
 import styles from "@/styles/Home.module.css";
 
-
 export default function Home() {
   return (
     <Page title="Portfolio Home | H. Tate Mitchell">
