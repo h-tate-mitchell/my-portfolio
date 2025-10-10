@@ -2,7 +2,7 @@ import Head from "next/head"
 import Image from "next/image"
 import Page from "@/components/Page"
 import Button from "@/components/Button"
-import Accolades from "@/components/Accolade"
+import Accolades from "@/components/Accolades"
 import styles from "@/styles/Home.module.css"
 import headshot from '@/assets/photos/headshot.jpeg'
 
