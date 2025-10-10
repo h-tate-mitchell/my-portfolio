@@ -17,11 +17,11 @@ const Accolades = () => {
                 </div>
                 <div className={styles.badge}>
                     <FontAwesomeIcon icon={faMedal} />
-                    <p>Upgraded analytics solutions for 130+ clients</p>
+                    <p>3 Years of SEO & Analytics Experience</p>
                 </div>
                 <div className={styles.badge}>
                     <FontAwesomeIcon icon={faMedal} />
-                    <p>Upgraded analytics solutions for 130+ clients</p>
+                    <p>Say something else good here!</p>
                 </div>
         </div>
     )

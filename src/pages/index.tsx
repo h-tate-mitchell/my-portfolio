@@ -4,7 +4,15 @@ import Page from "@/components/Page"
 import Button from "@/components/Button"
 import Accolades from "@/components/Accolades"
 import styles from "@/styles/Home.module.css"
-import headshot from '@/assets/photos/headshot.jpeg'
+import ImageCarousel from "@/components/ImageCarousel"
+import headshot from '../../public/assets/photos/headshot.jpeg'
+
+const carouselImages = [
+  { src: "/assets/photos/forest-paul-pastourmatzis.jpg", alt: "Forest" },
+  { src: "/assets/photos/headshot.jpeg", alt: "Professional Headshot" },
+  { src: "/assets/photos/ryunosuke-kikuno-ILFfFsqmt2A-unsplash.jpg", alt: "Geometric Mountains" },
+  // Add more images...
+];
 
 export default function Home() {
   return (
@@ -20,6 +28,10 @@ export default function Home() {
         </div>
       </div>
       <Accolades />
+      {/* <h2>Projects</h2>
+      <div className={styles.carouselContainer}>
+        <ImageCarousel images={carouselImages} autoPlay={true} interval={4000} />
+      </div> */}
     </Page>
   );
 }

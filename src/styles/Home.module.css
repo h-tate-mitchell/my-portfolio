@@ -1,5 +1,5 @@
 .pageContainer {
-    background-color: var(--background-dark);
+    background-color: var(--background-white);
     display: flex;
     padding: 15px;
     align-items: center;
@@ -12,7 +12,7 @@
 }
 
 .textContainer {
-    color: white;
+    color: var(--text-dark);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,4 +29,13 @@
     height: 100%;
     object-fit: cover; /* Cover container, cropping if needed */
     display: block; /* Remove any default inline spacing */
+}
+
+.carouselContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
 }
