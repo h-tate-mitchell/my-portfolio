@@ -23,8 +23,15 @@ export default function Home() {
           <p>I help businesses and entrepreneurs build meaningful digital experiences.</p>
           <Button className="default" url="/projects">Projects</Button>
         </div>
+        <Image 
+          src={headshot}
+          alt=""
+          height={987}
+          width={706}
+          // sizes="(max-width: 768px) 100vw, 800px"
+          className={styles.headshot}
+        />
         <div className={styles.imageContainer}>
-          <Image src={headshot} alt=""/>
         </div>
       </div>
       <Accolades />

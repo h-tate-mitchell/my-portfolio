@@ -20,8 +20,8 @@
 
 body {
     background-color: var(--background-light);
-
+    margin: 0;
     /* prevent horizontal scrollbars */
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 

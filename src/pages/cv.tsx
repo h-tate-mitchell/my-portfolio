@@ -7,9 +7,9 @@ const cv = () => {
     <Page title='About | H. Tate Mitchell'>
         <h1>CV & Resume</h1>
         <h2>CV</h2>
-        <PDFViewer pdfUrl="\docs\htmcv.pdf" />
+        <PDFViewer pdfUrl="/assets/docs/htmcv.pdf" />
         <h2>Resume</h2>
-        <PDFViewer pdfUrl="\docs\htmresume.pdf" />
+        <PDFViewer pdfUrl="/assets/docs/htmresume.pdf" />
     </Page>
   )
 }

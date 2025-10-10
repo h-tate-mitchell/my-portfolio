@@ -6,6 +6,8 @@ type Project = {
     approach: String;
     impact: String;
     technologies: String[];
+    photoPath: string;
+    photoAlt: string;
 }
 
 export const projects:Project[] = [
@@ -18,8 +20,9 @@ export const projects:Project[] = [
         impact : "The automation of this redirect cleaning process saved hours of developer time and standardized the output.",
         technologies : [
             "JavaScript", "JSDoc", "REPL", "MongoDB"
-        ]
-
+        ],
+        photoPath: '/assets/photos/cubes-redirect-unsplash.jpg',
+        photoAlt: 'Cubes'
     },
     {
         id : 2,
@@ -30,7 +33,8 @@ export const projects:Project[] = [
         impact : "Impact of #2",
         technologies : [
             "tech1", "tech2"
-        ]
-
+        ],
+        photoPath: '/assets/photos/forest-paul-pastourmatzis.jpg',
+        photoAlt: 'Forest'
     }
 ]

@@ -1,0 +1,24 @@
+.pageContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    padding: 15px;
+    margin: auto;
+    background-color: var(--background-white);
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 70%;
+    padding-right: 100px;
+    color: var(--text-dark);
+}
+
+.imageContainer {
+    background-size: cover;
+    width: 30%;
+    align-self: stretch;
+}

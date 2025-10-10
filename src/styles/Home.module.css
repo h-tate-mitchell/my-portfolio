@@ -19,16 +19,9 @@
     justify-content: space-evenly;
 }
 
-.imageContainer {
-    width: 50%;
+.headshot {
+    width: 30%;
     height: auto;
-}
-
-.imageContainer Image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* Cover container, cropping if needed */
-    display: block; /* Remove any default inline spacing */
 }
 
 .carouselContainer {
