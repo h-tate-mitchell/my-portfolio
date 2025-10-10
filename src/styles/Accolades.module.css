@@ -1,0 +1,19 @@
+.accolades {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 200px;
+    color: red;
+    background-color: var(--accent-color);
+    margin: auto;
+    padding: 15px;
+}
+
+.accolades .badge {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}

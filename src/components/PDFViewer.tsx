@@ -6,12 +6,12 @@ import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
 import '@react-pdf-viewer/core/lib/styles/index.css';
 import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 
-// Define props interface
-interface PDFViewerProps {
+type PDFViewerProps = {
   pdfUrl: string;
 }
 
-const PDFViewer: React.FC<PDFViewerProps> = ({ pdfUrl }) => {
+const PDFViewer = ( props: PDFViewerProps ) => { 
+  const { pdfUrl } = props;
   const defaultLayoutPluginInstance = defaultLayoutPlugin();
 
   return (
