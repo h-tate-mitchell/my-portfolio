@@ -7,7 +7,7 @@ import { faMedal } from "@fortawesome/free-solid-svg-icons";
 //     children: React.ReactNode;
 // }
 
-const Accolades = () => {
+const Accolade = () => {
     // const { children } = props;
     return (
         <div className={styles.accolades}>
@@ -27,4 +27,4 @@ const Accolades = () => {
     )
 }
 
-export default Accolades
+export default Accolade
