@@ -37,7 +37,7 @@ const projectId = () => {
                                 <p>{project.technologies.join(', ')}.</p>
                             </section>
                         </div>
-                        <div className={styles.imageContainer} style={{ backgroundImage: `url(${project.photoPath})` }} >
+                        <div className={styles.imageContainer} style={{ backgroundImage: `url(${project.imagePath})` }} >
                             &nbsp;
                         </div>
                     </article>

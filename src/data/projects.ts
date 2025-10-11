@@ -1,13 +1,13 @@
 type Project = {
-    id: Number;
+    id: number;
     title: String;
     background: String;
     challenge: String;
     approach: String;
     impact: String;
     technologies: String[];
-    photoPath: string;
-    photoAlt: string;
+    imagePath: string;
+    imageAlt: string;
 }
 
 export const projects:Project[] = [
@@ -21,8 +21,8 @@ export const projects:Project[] = [
         technologies : [
             "JavaScript", "JSDoc", "REPL", "JSON", "Mongo", "MongoDB", "URL Encoding", "Fetch API", "HTTP", "Error Handling", "Process Automation", "Content Management Systems",
         ],
-        photoPath: '/assets/photos/cubes-redirect-unsplash.jpg',
-        photoAlt: 'Cubes'
+        imagePath: '/assets/photos/cubes-redirect-unsplash.jpg',
+        imageAlt: 'Cubes'
     },
     {
         id : 2,
@@ -34,7 +34,7 @@ export const projects:Project[] = [
         technologies : [
             "tech1", "tech2"
         ],
-        photoPath: '/assets/photos/stadium-unsplash.jpg',
-        photoAlt: 'Forest'
+        imagePath: '/assets/photos/stadium-unsplash.jpg',
+        imageAlt: 'Baseball Stadium'
     }
 ]
