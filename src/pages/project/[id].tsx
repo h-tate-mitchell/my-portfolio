@@ -34,7 +34,7 @@ const projectId = () => {
                             </section>
                             <section>
                                 <h2>Technologies</h2>
-                                <p>{project.technologies.join(', ')}</p>
+                                <p>{project.technologies.join(', ')}.</p>
                             </section>
                         </div>
                         <div className={styles.imageContainer} style={{ backgroundImage: `url(${project.photoPath})` }} >
