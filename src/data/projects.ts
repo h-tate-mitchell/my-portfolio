@@ -1,7 +1,7 @@
 type Project = {
     id: number;
     title: String;
-    background: String;
+    background: string;
     challenge: String;
     approach: String;
     impact: String;
