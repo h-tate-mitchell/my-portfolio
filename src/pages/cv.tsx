@@ -4,7 +4,7 @@ import PDFViewer from '@/components/PDFViewer'
 
 const cv = () => {
   return (
-    <Page title='About | H. Tate Mitchell'>
+    <Page title='CV & Resume | H. Tate Mitchell'>
         <h1>CV & Resume</h1>
         <h2>CV</h2>
         <PDFViewer pdfUrl="/assets/docs/htmcv.pdf" />

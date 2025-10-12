@@ -1,3 +1,4 @@
+/* Base styles (mobile by default) */
 .navbar {
     display: flex;
     justify-content: flex-end;
@@ -11,6 +12,7 @@
     width: 200px;
     justify-content: space-between;
     padding: 0;
+    margin-right: 1em;
 }
 
 .buttons li {
@@ -22,4 +24,16 @@
 .buttons li a {
     color: var(--text-dark);
     text-decoration: none;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+   .buttons {
+        margin-right: 0;
+    }
 }

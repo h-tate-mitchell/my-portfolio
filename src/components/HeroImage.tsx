@@ -6,7 +6,7 @@ import forest from '../../public/assets/photos/forest-paul-pastourmatzis.jpg'
 const HeroImage = () => {
   return (
     <div className={styles.heroContainer}>
-        <Image src={forest} className={styles.heroImage} alt='Forest' priority />
+        <Image src={forest} className={styles.heroImage} alt='Forest' priority height={3078} width={5472} />
     </div>
   )
 }

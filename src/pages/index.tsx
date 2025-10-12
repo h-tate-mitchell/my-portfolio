@@ -17,22 +17,18 @@ const carouselImages = [
 export default function Home() {
   return (
     <Page title="Portfolio Home | H. Tate Mitchell">
-      <div className={styles.pageContainer}>
-        <div className={styles.textContainer}>
-          <h1>Hi, I am Tate</h1>
+      <div className={styles.topInfoWrapper}>
+          <h1>Hey, I'm Tate.</h1>
+          <Image 
+            src={headshot}
+            alt=""
+            height={987}
+            width={706}
+            // sizes="(max-width: 768px) 100vw, 800px"
+            className={styles.headshot}
+          />
           <p>I help businesses and entrepreneurs build meaningful digital experiences.</p>
           <Button className="default" url="/projects">Projects</Button>
-        </div>
-        <Image 
-          src={headshot}
-          alt=""
-          height={987}
-          width={706}
-          // sizes="(max-width: 768px) 100vw, 800px"
-          className={styles.headshot}
-        />
-        <div className={styles.imageContainer}>
-        </div>
       </div>
       <Accolades />
       {/* <h2>Projects</h2>

@@ -25,7 +25,13 @@ const ProjectCard = (props: ProjectCardProps) => {
     <Link href={`/project/${project.id}`}>
         <div className={styles.card}>
             <div className={styles.imageContainer}>
-                <Image src={project.imagePath} alt={project.imageAlt} width={300} height={300} />
+                <Image 
+                    src={project.imagePath}
+                    alt={project.imageAlt}
+                    width={300}
+                    height={300}
+                    style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                />
             </div>
             <div className={styles.textContainer}>
                 <p>{project.title}</p>

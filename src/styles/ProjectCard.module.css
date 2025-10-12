@@ -1,19 +1,46 @@
+/* Base styles (mobile by default) */
 .card {
     display: flex;
+    flex-direction: column;
     background-color: var(--background-white);
-    width: 90%;
-    margin: 10px 5px;
+    width: 80%;
+    margin: 10px auto;
     padding: 20px;
     border: 1px solid var(--background-light);
     box-shadow: 10px 10px 15px 2px #808080;
 }
 
 .imageContainer {
-    color: var(--text-dark);
+    display: flex;
+    width: 80%px;
+    height: 100px;
+    overflow: hidden;
 }
 
 .textContainer {
-    padding-left: 35px;
+    padding-top: 10px;
     color: var(--text-dark);
     text-decoration: none;
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+    .card {
+        flex-direction: row;
+    }
+
+    .imageContainer {
+        width: 200%;
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .textContainer {
+        padding-left: 35px;
+    }
 }

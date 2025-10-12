@@ -4,7 +4,7 @@
 :root {
   --primary-color: #187795; /* Cerulean */
   --secondary-color: #ced3dc; /* French Gray */
-  --accent-color: #F6511D; /* Tangelo */
+  --accent-color: #f6511d; /* Tangelo */
   --text-dark: #121420; /* Rich Black */
   --text-light: #ffffff; /* White */
   --background-white: #ffffff; /* White */
@@ -12,16 +12,8 @@
   --background-dark: #2c2b3c; /* Raisin Black */
 }
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-} */
-
 body {
     background-color: var(--background-light);
     margin: 0;
-    /* prevent horizontal scrollbars */
-    overflow-x: hidden;
+    overflow-x: hidden; /* prevent horizontal scrollbars */
 }
-

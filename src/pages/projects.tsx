@@ -8,7 +8,7 @@ import ProjectCard from '@/components/ProjectCard'
 const projects = () => {
   return (
     <Page title='Projects | H. Tate Mitchell'>
-        <h1>Projects</h1>
+        <h1 className={styles.header}>Projects</h1>
         <div className={styles.cardContainer}>
             { projectsData.map(project => (
               <ProjectCard project={project} key={project.id.toString()} />
