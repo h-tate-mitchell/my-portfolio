@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import styles from '@/styles/HeroImage.module.css'
-import forest from '../../public/assets/photos/forest-paul-pastourmatzis.jpg'
+import forest from '../../public/assets/photos/forest-unsplash.jpg'
 
 const HeroImage = () => {
   return (

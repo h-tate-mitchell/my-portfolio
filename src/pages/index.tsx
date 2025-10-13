@@ -8,9 +8,9 @@ import ImageCarousel from "@/components/ImageCarousel"
 import headshot from '../../public/assets/photos/headshot.jpeg'
 
 const carouselImages = [
-  { src: "/assets/photos/forest-paul-pastourmatzis.jpg", alt: "Forest" },
+  { src: "/assets/photos/forest-unsplash.jpg", alt: "Forest" },
   { src: "/assets/photos/headshot.jpeg", alt: "Professional Headshot" },
-  { src: "/assets/photos/ryunosuke-kikuno-ILFfFsqmt2A-unsplash.jpg", alt: "Geometric Mountains" },
+  { src: "/assets/photos/peaks-unsplash.jpg", alt: "Geometric Mountains" },
   // Add more images...
 ];
 
@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <Page title="Portfolio Home | H. Tate Mitchell">
       <div className={styles.topInfoWrapper}>
-          <h1>Hey, I'm Tate.</h1>
+          <h1>Hi, I'm Tate.</h1>
           <Image 
             src={headshot}
             alt=""
