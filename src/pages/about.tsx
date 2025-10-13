@@ -2,6 +2,7 @@ import React from 'react'
 import Page from '@/components/Page'
 import { resume } from '@/data/resume'
 import { aboutData } from '@/data/about'
+import styles from '@/styles/Footer.module.css'
 
 const about = () => {
   return (

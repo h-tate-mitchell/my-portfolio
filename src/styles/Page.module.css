@@ -9,6 +9,18 @@
     background-color: var(--background-white);
 }
 
+.main p {
+    padding: 0px 10px;
+}
+
+.main h1 {
+    padding: 0px 10px;
+}
+
+.main h2 {
+    padding: 0px 10px;
+}
+
 /* Tablet breakpoint */
 @media (min-width: 768px) {
 
@@ -18,5 +30,17 @@
 @media (min-width: 992px) {
     .main {
         padding: 50px 75px;
+    }
+
+    .main p {
+        padding: 0;
+    }
+
+    .main h1 {
+        padding: 0;
+    }
+
+    .main h2 {
+        padding: 0;
     }
 }

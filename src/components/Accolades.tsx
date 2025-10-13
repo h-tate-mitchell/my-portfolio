@@ -13,7 +13,7 @@ const Accolades = () => {
         <div className={styles.accolades}>
                 <div className={styles.badge}>
                     <FontAwesomeIcon icon={faMedal} />
-                    <p>Upgraded analytics solutions for 130+ clients</p>
+                    <p>Upgraded SEO & analytics solutions for 130+ clients</p>
                 </div>
                 <div className={styles.badge}>
                     <FontAwesomeIcon icon={faMedal} />
