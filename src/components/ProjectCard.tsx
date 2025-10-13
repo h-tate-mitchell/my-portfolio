@@ -16,11 +16,10 @@ type ProjectCardProps = {
         imagePath: string;
         imageAlt: string;
     }
-    key: string,
 }
 
 const ProjectCard = (props: ProjectCardProps) => {
-    const { project, key } = props;
+    const { project } = props;
   return (
     <Link href={`/project/${project.id}`}>
         <div className={styles.card}>
