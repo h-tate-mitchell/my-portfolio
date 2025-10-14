@@ -6,7 +6,6 @@
     width: 90%;
     overflow-x: hidden;
     height: fit-content;
-    padding: 15px;
     margin: auto;
     margin-bottom: 30px;
     background-color: var(--background-white);
@@ -23,7 +22,7 @@
 }
 
 .textContainer p {
-    text-align: justify;
+    text-align: left;
 }
 
 .imageContainer {
@@ -43,17 +42,18 @@
 @media (min-width: 992px) {
     .pageContainer {
         width: 100%;
-        grid-template: 1fr / 70% 30%;
+        grid-template: 1fr / 2fr 1fr;
     }
 
     .textContainer {
         grid-row-start: 1;
         grid-row-end: 2;
-        width: 90%;
+        width: 95%;
     }
 
     .imageContainer {
         grid-column-start: 2;
         grid-column-end: 3;
+        width: 95%;
     }
 }

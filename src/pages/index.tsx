@@ -19,15 +19,17 @@ export default function Home() {
     <Page title="Portfolio Home | H. Tate Mitchell">
       <div className={styles.topInfoWrapper}>
           <h1>Hi, I'm Tate.</h1>
-          <Image 
-            src={headshot}
-            alt=""
-            height={987}
-            width={706}
-            // sizes="(max-width: 768px) 100vw, 800px"
-            className={styles.headshot}
-          />
-          <p>I help businesses and entrepreneurs build meaningful digital experiences.</p>
+          <div className={styles.imageContainer}>
+            <Image 
+              src={headshot}
+              alt=""
+              height={987}
+              width={706}
+              // sizes="(max-width: 768px) 100vw, 800px"
+              className={styles.headshot}
+            />
+          </div>
+          <p>Sell, see the need I can fill. You found your guy. Quippy, this is who I am, SEO-Guy, I do a good job, and I like it!</p>
           <Button className="default" url="/projects">Projects</Button>
       </div>
       <Accolades />

@@ -8,11 +8,11 @@ import ProjectCard from '@/components/ProjectCard'
 const projects = () => {
   return (
     <Page title='Projects | H. Tate Mitchell'>
-        <h1 className={styles.header}>Projects</h1>
         <div className={styles.cardContainer}>
-            { projectsData.map(project => (
-              <ProjectCard project={project} key={project.id.toString()} />
-            ))}
+          <h1 className={styles.title}>Projects</h1>
+          { projectsData.map(project => (
+            <ProjectCard project={project} key={project.id.toString()} />
+          ))}
         </div>
         
         {/* <div>

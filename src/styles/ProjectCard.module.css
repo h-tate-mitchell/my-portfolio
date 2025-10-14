@@ -2,12 +2,17 @@
 .card {
     display: flex;
     flex-direction: column;
-    background-color: var(--background-white);
-    width: 80%;
-    margin: 10px auto;
+    background-color: #edf5ff;
+    margin-bottom: 21.44px;
     padding: 20px;
     border: 1px solid var(--background-light);
-    box-shadow: 10px 10px 15px 2px #808080;
+    box-shadow: 10px 10px 15px 2px #c5e0ff;
+    border-radius: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--text-dark);
 }
 
 .imageContainer {
@@ -17,10 +22,8 @@
     overflow: hidden;
 }
 
-.textContainer {
+.textContainer p {
     padding-top: 10px;
-    color: var(--text-dark);
-    text-decoration: none;
 }
 
 /* Tablet breakpoint */

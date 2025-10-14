@@ -21,7 +21,7 @@ type ProjectCardProps = {
 const ProjectCard = (props: ProjectCardProps) => {
     const { project } = props;
   return (
-    <Link href={`/project/${project.id}`}>
+    <Link href={`/project/${project.id}`} className={styles.link}>
         <div className={styles.card}>
             <div className={styles.imageContainer}>
                 <Image 
@@ -33,8 +33,8 @@ const ProjectCard = (props: ProjectCardProps) => {
                 />
             </div>
             <div className={styles.textContainer}>
-                <p>{project.title}</p>
-                <p>Background: {truncateText(project.background, 26)}</p>
+                <h2>{project.title}</h2>
+                <p>{truncateText(project.background, 26)}</p>
             </div>
         </div>
     </Link>

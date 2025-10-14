@@ -2,8 +2,7 @@
 .navbar {
     display: flex;
     justify-content: flex-end;
-    max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px;
 }
 
 .buttons {
@@ -12,7 +11,6 @@
     width: 200px;
     justify-content: space-between;
     padding: 0;
-    margin-right: 1em;
 }
 
 .buttons li {
@@ -33,7 +31,5 @@
 
 /* Desktop breakpoint */
 @media (min-width: 992px) {
-   .buttons {
-        margin-right: 0;
-    }
+
 }

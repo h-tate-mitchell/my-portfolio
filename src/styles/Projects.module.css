@@ -1,11 +1,11 @@
 /* Base styles (mobile by default) */
 .cardContainer {
     display: grid;
+    margin: 10px 10%;
 }
 
-.header {
-    margin: 20px auto;
-    padding-left: 20px;
+.cardContainer .title {
+    margin: 0 0 21.44px 0;
 }
 
 /* Tablet breakpoint */

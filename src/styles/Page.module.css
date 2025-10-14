@@ -1,24 +1,16 @@
 /* Base styles (mobile by default) */
+.pageInner {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 80vh;
+}
+
 .main {
     position: relative;
     box-sizing: border-box;
-    max-width: 1200px;
-    min-height: 80vh;
-    margin: 10px auto;
-    padding: 25px 5px;
+    margin: 10px;
+    padding: 25px 0;
     background-color: var(--background-white);
-}
-
-.main p {
-    padding: 0px 10px;
-}
-
-.main h1 {
-    padding: 0px 10px;
-}
-
-.main h2 {
-    padding: 0px 10px;
 }
 
 /* Tablet breakpoint */
@@ -28,19 +20,5 @@
 
 /* Desktop breakpoint */
 @media (min-width: 992px) {
-    .main {
-        padding: 50px 75px;
-    }
 
-    .main p {
-        padding: 0;
-    }
-
-    .main h1 {
-        padding: 0;
-    }
-
-    .main h2 {
-        padding: 0;
-    }
 }

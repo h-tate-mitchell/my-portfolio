@@ -4,16 +4,42 @@
 :root {
   --primary-color: #187795; /* Cerulean */
   --secondary-color: #ced3dc; /* French Gray */
+  --test-color: #ced3dc; /* French Gray */
   --accent-color: #f6511d; /* Tangelo */
   --text-dark: #121420; /* Rich Black */
   --text-light: #ffffff; /* White */
   --background-white: #ffffff; /* White */
   --background-light: #ced3dc; /* French Gray */
   --background-dark: #2c2b3c; /* Raisin Black */
+
+  --text-margin-small: 10px;
+  --text-margin-medium: 20px;
+  --text-margin-large: 30px;
+
+  --text-heading-font: ;
+  --text-paragraph-font: ;
 }
 
 body {
     background-color: var(--background-light);
     margin: 0;
     overflow-x: hidden; /* prevent horizontal scrollbars */
+}
+
+p, h1, h2, h3 {
+  margin: var(--text-margin-small);
+}
+
+/* Tablet breakpoint */
+@media (min-width: 768px) {
+  p, h1, h2, h3 {
+    margin: var(--text-margin-medium);
+  }
+}
+
+/* Desktop breakpoint */
+@media (min-width: 992px) {
+  p, h1, h2, h3 {
+    margin: var(--text-margin-large);
+  }
 }

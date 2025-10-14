@@ -10,7 +10,7 @@
 }
 
 .default a {
-    color: var(--text-dark);
+    color: var(--text-light);
     text-decoration: none;
 }
 

@@ -21,11 +21,13 @@ const Page = (props: PageProps) => {
             <link rel="icon" href="/favicon.ico" />
         </Head>
         <HeroImage />
-        <Navbar />
         <div className="page">
-            <main className={styles.main}>
-                {children}
-            </main>
+            <div className={styles.pageInner}>
+                <Navbar />
+                <main className={styles.main}>
+                    {children}
+                </main>
+            </div>
         </div>
         <Footer/>
     </>
