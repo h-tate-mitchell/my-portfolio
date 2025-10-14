@@ -17,6 +17,10 @@ const projectId = () => {
                         <div className={styles.textContainer}>
                             <h1>{project.title}</h1>
                             <section>
+                                <h2>Summary</h2>
+                                <p>{project.summary}</p>
+                            </section>
+                            <section>
                                 <h2>Background</h2>
                                 <p>{project.background}</p>
                             </section>

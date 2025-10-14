@@ -4,7 +4,6 @@ import Page from "@/components/Page"
 import Button from "@/components/Button"
 import Accolades from "@/components/Accolades"
 import styles from "@/styles/Home.module.css"
-import ImageCarousel from "@/components/ImageCarousel"
 import headshot from '../../public/assets/photos/headshot.jpeg'
 
 const carouselImages = [
@@ -29,14 +28,10 @@ export default function Home() {
               className={styles.headshot}
             />
           </div>
-          <p>Sell, see the need I can fill. You found your guy. Quippy, this is who I am, SEO-Guy, I do a good job, and I like it!</p>
+          <p>Hi, innovators! Specializing in SEO and web analytics, I approach dev projects with a friendly, straightforward energy that gets results. Your site will gain visibility and valuable insights seamlessly—let's connect and build something awesome together.</p>
           <Button className="default" url="/projects">Projects</Button>
       </div>
       <Accolades />
-      {/* <h2>Projects</h2>
-      <div className={styles.carouselContainer}>
-        <ImageCarousel images={carouselImages} autoPlay={true} interval={4000} />
-      </div> */}
     </Page>
   );
 }

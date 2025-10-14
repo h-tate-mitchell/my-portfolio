@@ -11,18 +11,19 @@ const Accolades = () => {
     // const { children } = props;
     return (
         <div className={styles.accolades}>
-                <div className={styles.badge}>
-                    <FontAwesomeIcon icon={faMedal} />
-                    <p>Upgraded SEO & analytics solutions for 130+ clients</p>
-                </div>
-                <div className={styles.badge}>
-                    <FontAwesomeIcon icon={faMedal} />
-                    <p>3 Years of SEO & Analytics Experience</p>
-                </div>
-                <div className={styles.badge}>
-                    <FontAwesomeIcon icon={faMedal} />
-                    <p>Say something else good here!</p>
-                </div>
+            <div className={styles.badge}>
+                <FontAwesomeIcon icon={faMedal} />
+                <p>3 Years of SEO & Analytics Experience</p>
+            </div>
+            <div className={styles.badge}>
+                <FontAwesomeIcon icon={faMedal} />
+                <p>Upgraded SEO & analytics solutions for 130+ clients</p>
+            </div>
+            
+            <div className={styles.badge}>
+                <FontAwesomeIcon icon={faMedal} />
+                <p>Google Analytics & Tag Manager Expert with hands-on implementations</p>
+            </div>
         </div>
     )
 }

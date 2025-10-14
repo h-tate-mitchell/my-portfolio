@@ -8,6 +8,7 @@ type ProjectCardProps = {
     project: {
         id: number;
         title: String;
+        summary: string;
         background: string;
         challenge: String;
         approach: String;
@@ -34,7 +35,7 @@ const ProjectCard = (props: ProjectCardProps) => {
             </div>
             <div className={styles.textContainer}>
                 <h2>{project.title}</h2>
-                <p>{truncateText(project.background, 26)}</p>
+                <p>{truncateText(project.summary, 30)}</p>
             </div>
         </div>
     </Link>
