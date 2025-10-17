@@ -20,8 +20,26 @@
 }
 
 .buttons li a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 25px;
     color: var(--text-dark);
     text-decoration: none;
+}
+.buttons li a div.tabDecal {
+    opacity: 0;
+    background-color: rgb(99, 99, 99);
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    transition: opacity 0.5s ease, width 0.5s ease;
+}
+
+.buttons li a:hover div.tabDecal {
+    opacity: 100;
+    width: 100%;
 }
 
 /* Tablet breakpoint */

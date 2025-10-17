@@ -16,17 +16,25 @@
   --text-margin-medium: 20px;
   --text-margin-large: 30px;
 
-  --text-heading-font: ;
-  --text-paragraph-font: ;
+  --text-heading-font: 'Montserrat', sans-serif;
+  --text-paragraph-font: 'Open Sans', sans-serif;
 }
 
 body {
+    font-family: var(--text-paragraph-font);
+    font-weight: 400;
     background-color: var(--background-light);
     margin: 0;
     overflow-x: hidden; /* prevent horizontal scrollbars */
 }
 
-p, h1, h2, h3 {
+h1, h2, h3 {
+  font-family: var(--text-heading-font);
+  font-weight: 100;
+  margin: var(--text-margin-small);
+}
+
+p {
   margin: var(--text-margin-small);
 }
 

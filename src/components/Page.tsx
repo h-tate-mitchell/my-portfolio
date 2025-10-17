@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import Head from 'next/head'
 import styles from '@/styles/Page.module.css'
-import HeroImage from '@/components/HeroImage'
+import ImageFootTransition from '@/components/ImageFootTransition'
 
 type PageProps = {
     children: React.ReactNode;
@@ -20,7 +20,6 @@ const Page = (props: PageProps) => {
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/favicon.ico" />
         </Head>
-        <HeroImage />
         <div className="page">
             <div className={styles.pageInner}>
                 <Navbar />
@@ -29,6 +28,7 @@ const Page = (props: PageProps) => {
                 </main>
             </div>
         </div>
+        <ImageFootTransition />
         <Footer/>
     </>
   )
