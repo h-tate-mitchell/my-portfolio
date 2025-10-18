@@ -32,9 +32,9 @@
     opacity: 0;
     background-color: rgb(99, 99, 99);
     width: 2px;
-    height: 2px;
+    height: 1px;
     border-radius: 50%;
-    transition: opacity 0.5s ease, width 0.5s ease;
+    transition: opacity 0.3s ease, width 0.3s ease;
 }
 
 .buttons li a:hover div.tabDecal {

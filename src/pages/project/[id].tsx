@@ -12,8 +12,7 @@ const projectId = () => {
         <Page title={`Project ${id} | H. Tate Mitchell`}>
             {projects.some(project => project.id.toString() === id) ?
             projects.filter(project => project.id.toString() === id).map(project =>
-                <div key={project.id.toString()}>
-                    <article className={styles.pageContainer}>
+                <article key={project.id.toString()} className={styles.pageContainer}>
                         <div className={styles.textContainer}>
                             <h1>{project.title}</h1>
                             <section>
@@ -36,26 +35,24 @@ const projectId = () => {
                                 <h2>Impact</h2>
                                 <p>{project.impact}</p>
                             </section>
-                            <section>
+                            <section className={styles.finalSection}>
                                 <h2>Technologies</h2>
                                 <p>{project.technologies.join(', ')}.</p>
                             </section>
+                            <div className={styles.interiorNav}>
+                                <Button className="default" url="/projects">Back to Projects</Button>
+                            </div>
                         </div>
                         <div className={styles.imageContainer} style={{ backgroundImage: `url(${project.imagePath})` }} >
                             &nbsp;
                         </div>
-                    </article>
-                    
-                </div>)
+                    </article>)
 
             : <>
                  Oops Project {id} not found.
             </>
 
             }
-            <div className={styles.interiorNav}>
-                <Button className="default" url="/projects">Back to Projects</Button>
-            </div>
         </Page>
     )
 }

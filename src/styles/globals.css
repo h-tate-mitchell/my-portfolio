@@ -9,6 +9,7 @@
   --text-dark: #121420; /* Rich Black */
   --text-light: #ffffff; /* White */
   --background-white: #ffffff; /* White */
+  --background-off-white: #e9ecf1; /* Off-White */
   --background-light: #ced3dc; /* French Gray */
   --background-dark: #2c2b3c; /* Raisin Black */
 
@@ -23,7 +24,7 @@
 body {
     font-family: var(--text-paragraph-font);
     font-weight: 400;
-    background-color: var(--background-light);
+    background-color: var(--background-off-white);
     margin: 0;
     overflow-x: hidden; /* prevent horizontal scrollbars */
 }

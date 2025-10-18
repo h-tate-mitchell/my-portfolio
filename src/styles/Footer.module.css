@@ -36,6 +36,13 @@
     text-decoration: none;
 }
 
+.socials .icon {
+    width: 32px;
+    height: 32px;
+    margin: 16px;
+    color: var(--text-light)
+}
+
 /* Tablet breakpoint */
 @media (min-width: 768px) {
 

@@ -9,8 +9,8 @@
     position: relative;
     box-sizing: border-box;
     margin: 10px;
-    padding: 25px 0;
-    background-color: var(--background-white);
+    padding: 0;
+    background-color: var(--background-off-white);
 }
 
 /* Tablet breakpoint */

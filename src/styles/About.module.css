@@ -1,6 +1,6 @@
 /* Base styles (mobile by default) */
 .socials {
-    background-color: var(--background-white);
+    background-color: var(--background-off-white);
     display: flex;
     align-items: center;
     justify-content: center;

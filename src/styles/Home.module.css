@@ -14,7 +14,7 @@
 
 .imageContainer {
     position: relative;
-    background-color: var(--background-light);
+    background-color: var(--background-off-white);
 }
 
 .headshot {
