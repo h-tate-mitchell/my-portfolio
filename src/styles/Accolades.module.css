@@ -1,7 +1,9 @@
 /* Base styles (mobile by default) */
 .accolades {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
+    align-items: center;
     width: 100%;
     height: fit-content;
     background-color: var(--background-dark);
@@ -31,6 +33,10 @@
 
 /* Tablet breakpoint */
 @media (min-width: 768px) {
+    .accolades {
+        flex-direction: row;
+    }
+
     .badge svg {
         width: 30%;
     }
@@ -38,6 +44,10 @@
 
 /* Desktop breakpoint */
 @media (min-width: 992px) {
+    .accolades {
+        flex-direction: row;
+    }
+
     .badge svg {
         width: 25%;
     }

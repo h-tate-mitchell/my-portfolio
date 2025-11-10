@@ -1,6 +1,6 @@
 /* Base styles (mobile by default) */
 .footer {
-    background-color: var(--background-dark);
+    background-color: var(--background-footer);
     display: flex;
     flex-direction: column;
     padding: 15px 0;
